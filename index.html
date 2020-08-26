@@ -8,9 +8,16 @@
     <style>
         head { font-family: 'DM Sans', sans-serif }
         #foto-de-perfil { border-radius:100%;    
-            border: 5px white solid;
-            display: block;
-            margin: auto; }
+            border: 5px white solid; }
+        .bloco-foto-de-perfil { width: 40%;
+            display: inline-block;
+            margin-left: 95px; }
+        .bloco-descrição { width: 40%;
+            display: inline-block;
+            float: right;
+            margin-top: 100px;
+            margin-right: 95px;
+            font-size: x-large; }
         .nome { font-family:'Varela Round', monospace; }
         .destaque { background-color: whitesmoke; }
         .pequeno { font-size: 14px; }
@@ -28,19 +35,19 @@
     <div>
         <h1 class="titulo1">Portfólio de <span class="nome">Lucas Zago de Oliveira</span></h1>
     </div>
-    <div>
-        <img src="/home/lucas/Dropbox/Boss/Pictures/Profile/Profissional  quadrada.jpg"
-            alt="Jovem moreno de camisa sorrindo"
-            id="foto-de-perfil"
-            height=450px>
-    </div>
     <h2>Bem vindo ao meu Portfólio :)</h2>
     <ul>
         <li><a href=#descrição>Descrição</a></li>
         <li><a href=#lista-de-habilidades>Habilidades</a></li>
         <li><a href=#ai>Um pouco mais sobre inteligência artificial</a></li>
     </ul>
-    <div>
+    <div class="bloco-foto-de-perfil">
+        <img src="/home/lucas/Dropbox/Boss/Pictures/Profile/Profissional  quadrada.jpg"
+            alt="Jovem moreno de camisa sorrindo"
+            id="foto-de-perfil"
+            height=450px>
+    </div>
+    <div class="bloco-descrição">
         <p class="paragrafo1" id="descrição">Meu nome é <b><a href="#foto-de-perfil">
             <span class="nome">Lucas Zago de Oliveira</span></a></b>, sou <span class="destaque">brasileiro</span>, tenho 31
             anos e moro em <b><span class="destaque">Curitiba, Estado do Paraná</span>.</b> Sou 
